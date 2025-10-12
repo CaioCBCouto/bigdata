@@ -1,7 +1,7 @@
 # Checklist AV1 — Pipeline Filmes
 
 - Ingestão:
-  - [ ] Em progresso  [ ] Finalizado  [X] Pendente
+  - [X] Em progresso  [ ] Finalizado  [ ] Pendente
 - Armazenamento (Bronze/Silver/Gold):
   - [ ] Em progresso  [ ] Finalizado  [X] Pendente
 - Transformação:

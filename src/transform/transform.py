@@ -73,8 +73,6 @@ def clean_movies() -> None:
         "genres_list",
         "production_companies", "production_countries", "spoken_languages",
         "collection_id", "collection_name",
-        "collection_poster_path", "collection_backdrop_path",
-        "poster_path", "backdrop_path",
     ]
     present = [c for c in keep if c in df.columns]
     df = df[present].drop_duplicates(subset=["id"]).reset_index(drop=True)

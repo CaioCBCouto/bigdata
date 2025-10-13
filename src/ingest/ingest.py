@@ -2,8 +2,8 @@ from __future__ import annotations
 import os
 import pandas as pd
 
-BRONZE_DIR = "bronze"
-RAW_DIR = "dados/raw"
+BRONZE_DIR = "../../bronze"
+RAW_DIR = "../../dados/raw"
 
 os.makedirs(BRONZE_DIR, exist_ok=True)
 

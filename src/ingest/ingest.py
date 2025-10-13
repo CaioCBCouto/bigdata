@@ -29,4 +29,4 @@ def ingest_ratings(batch_size: int = 0):
 
 if __name__ == "__main__":
     ingest_movies()
-    ingest_ratings(batch_size=0)
+    ingest_ratings(batch_size=100000)
